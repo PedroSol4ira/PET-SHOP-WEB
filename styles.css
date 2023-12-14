@@ -1,0 +1,501 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5EE;
+}
+
+header {
+    background-color:	#4B0082 ;
+    color: #fff;
+    padding: 1em;
+    text-align:left;
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: #333;
+  }
+
+  .main-content {
+    padding: 20px;
+}
+
+
+
+
+
+#botão-cabeçalho{
+    display: flex;
+    justify-content: center;
+    margin-left: -200px;
+    color: #fff;
+    margin-top: 20px;
+    
+}
+
+
+
+#box{
+    
+    border-radius: 50px;
+    height: 1000px;
+    width: 1010px;
+    margin-left: 380px;
+    margin-top: -455px;
+    background-color: #fff;
+
+}
+
+
+#box2{
+   display: flex;
+   justify-content: flex-end;
+   border: 2px solid red;
+   height: 80px;
+   width: 500px;
+}
+
+
+
+#filtros{
+
+   background-color: #fff ;
+   border-radius: 15px;
+   width: 250px;
+   height: auto;
+   margin-top: 20px;
+   height: max-content;
+
+} 
+
+
+#search-button {
+    background-color: #4caf50;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#search-button img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border: none;
+}
+
+
+
+#search-input {
+    border: none;
+    padding: 10px;
+    flex: 1;
+}
+
+
+
+
+
+
+
+.fonte-animal{
+    margin-top: 40px;
+}
+
+
+.animalzinho{
+    margin-left: 20px;
+    max-width: 70px; 
+    max-height: 150px;
+}
+
+.coruja{
+    margin-left: 20px;
+    max-width: 40px; 
+    max-height: 200px;
+}
+
+.planta{
+    margin-left: 20px;
+    max-width: 40px; 
+    max-height: 300px;
+}
+
+
+
+
+
+
+
+.borda{
+    border-bottom: 1px solid #C0C0C0;
+    width: 226px;
+    margin-left: 12px;
+    
+}
+
+
+
+.borda-valor{
+    border-bottom: 1px solid #C0C0C0;
+    width: 235px;
+    margin-left: 12px;
+}
+
+
+.borda-selecionavel{
+    border: 1px solid #C0C0C0;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin-left: 75px;
+}
+
+
+.box-racoes{
+    display:inline-block ;
+    margin-top: 50px;
+    border: 1px solid #C0C0C0;
+    border-radius: 20px;
+    margin-left: 40px;
+    height: 250px;
+    width: 170px;
+
+}
+
+
+
+.box-valores{
+    
+    width: 150px;
+    height: 90px;
+    margin-left: 25px;
+}
+
+
+.centralizar{
+    margin-left: 25px;
+}
+
+
+.filtros{
+    margin-bottom: -18px;
+    margin-left: 20px;
+    text-align: center;
+    color: #333;
+    
+    
+    
+    
+}
+
+.fonte-cabeçalho{
+    display: flex;
+    color: #fff;
+    margin-left: 45px;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition:.5s ease;
+    border-radius: 50px;
+    
+     
+ }
+ 
+ 
+ .fonte-cabeçalho:hover{
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+     
+ 
+ }
+
+
+
+.filtros:hover{
+    text-decoration:underline;
+
+}
+
+
+
+
+
+
+.icone-usuario{
+    margin-left: 15px;
+    
+}
+
+
+.imagem-racoes{
+    margin-left: 20px;
+    max-width: 200px; 
+    max-height: 150px;
+    mix-blend-mode: multiply;
+}
+
+
+
+
+.listagem-cabeçalho{
+    display: flex;
+    margin: auto;
+   
+}
+
+
+.login{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: 1.5s;
+    display: inline-block;
+    border-radius: 500px;
+    height: 20px;
+}
+.login:hover{
+    position: relative;
+    box-shadow: inset 400px 0 0 0 aqua;
+}
+
+
+
+
+.rações{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -200px;
+    border-radius: 50px;
+    background-color:#fff ;
+    width: auto;
+}
+
+
+
+
+
+.search-container {
+    display: flex;
+    background-color: #fff;
+    border: none;
+    border-radius:40px;
+    overflow: hidden;
+    width: 900px;
+    margin: auto;
+    height: 45px;
+    
+    
+}
+
+
+
+.services {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+.titulo{
+    color:#fff;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+}
+
+
+
+
+.valor{
+    margin-bottom: -18px;
+    margin-left: 20px;
+    text-align: center;
+    color: #333;
+}
+
+
+.valores{
+    font-size:medium;
+    
+    
+}
+.valores:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/********************
+
+INICIO TELA LOGIN
+
+*************/
+
+
+
+.titulo-login{
+    color:#fff;
+    padding: 20px;
+    margin:auto;
+    text-decoration: none;
+}
+
+.cadastro-login{
+    display: flex;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+
+}
+
+
+.imagem-racoes1{
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 80px;
+    max-width: 800px; 
+    max-height: 350px;
+    mix-blend-mode: multiply;
+
+}
+
+.cadastro{
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+
+
+.Cadastre-se{
+    font-size: 11px;
+    margin-left: 80px;
+    margin-top: -50px;
+    color: #ccc;
+}
+
+.cinza{
+    color: #ccc;
+}
+
+.Cadastre-se:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
